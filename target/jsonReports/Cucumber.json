@@ -1,0 +1,91 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3862302800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforescenario()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "",
+        "description": "",
+        "id": "validating-place-api;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8978700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Delete Place Payload",
+            "match": {
+              "location": "Apistepdef.delete_Place_Payload()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 71189500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user calls \"deletePlaceAPi\" with \"Post\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"deletePlaceAPi\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Post\"",
+                  "offset": 33
+                }
+              ],
+              "location": "Apistepdef.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2436700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the API call is sucess with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "Apistepdef.the_API_call_is_sucess_with_status_code(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeletePlace"
+          }
+        ]
+      }
+    ],
+    "name": "Validating Place API",
+    "description": "",
+    "id": "validating-place-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/Placevalidations.feature",
+    "tags": []
+  }
+]
