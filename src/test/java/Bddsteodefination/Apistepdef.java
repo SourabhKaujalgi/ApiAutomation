@@ -89,6 +89,8 @@ public class Apistepdef extends Utils {
 	     
 		System.out.println(value);
 		
+		System.out.println(value);
+		
 	    assertEquals(getJsonPath(this.response,att),value);
 	    
 	}
