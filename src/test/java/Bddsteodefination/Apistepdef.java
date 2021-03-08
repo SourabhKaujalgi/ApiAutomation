@@ -87,7 +87,7 @@ public class Apistepdef extends Utils {
 	public void in_reponse_body_is(String att, String value) {
 	  //  String reponsebody=response.asString();
 	     
-		
+		System.out.println(value);
 		
 	    assertEquals(getJsonPath(this.response,att),value);
 	    
