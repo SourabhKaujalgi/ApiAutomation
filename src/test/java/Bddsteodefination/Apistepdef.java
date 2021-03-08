@@ -88,6 +88,7 @@ public class Apistepdef extends Utils {
 	  //  String reponsebody=response.asString();
 	     
 		System.out.println(value);
+		System.out.println(value);
 		
 	    assertEquals(getJsonPath(this.response,att),value);
 	    
